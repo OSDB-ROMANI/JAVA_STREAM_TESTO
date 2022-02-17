@@ -1,8 +1,8 @@
 # JAVA_STREAM_FILE_TESTO
 <h4>Gestire flussi di caratteri - I/O</h4>
 
-Gli STREAM (flusso) sono una sequenza ordinata di dati che hanno una sorgento (input) o una destinazione (output). Gli stream possono rappresentare molte differenti fonti sorgenti o di destinazione quali file su disco, memomeri, dispositivi collegati, altri programmi.
-Per poter leggere/scrivere un file o una risorsa occorre utilizzare un oggetto (straeam) che di "agganci" alla risorsa.
+Gli STREAM (flusso) sono una sequenza ordinata di dati che hanno una sorgente (input) o una destinazione (output). Gli stream possono rappresentare molte differenti fonti sorgenti o di destinazione quali file su disco, memoria, dispositivi collegati, altri programmi.
+Per poter leggere/scrivere un file o una risorsa occorre utilizzare un oggetto (stream) che si "aggancia" alla risorsa.
 <h1>LETTURA FILE DI TESTO</h1>
 
 <h3>FileReader</h3>
@@ -26,7 +26,7 @@ Serve per leggere un blocco di testo agganciandosi ad uno stream, costruttore:
 E' possibile creare un'oggetto: BufferedReader bf = new BufferedReader(new FileReader(nome o File f);
 <h4>Metodi principali</h4>
 <ol>
-  <li>String readLine(): legge una riga fino al \n e la restituisce codificata come stringa</li>
+  <li>String readLine(): legge una riga fino alla fine e restituisce quando letto codificato come stringa</li>
   <li>void close(): chiude lo stream alla risorsa associata</li>
 </ol>
 <hr>
