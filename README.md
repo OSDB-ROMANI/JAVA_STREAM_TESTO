@@ -6,7 +6,7 @@ Per poter leggere/scrivere un file o una risorsa occorre utilizzare un oggetto (
 <h1>LETTURA FILE DI TESTO</h1>
 
 <h3>FileReader</h3>
-Per leggere un file di testo dobbiamo creare un'oggetto di tipo FileInputStream collegato al file specificato, prevede due costruttori:
+Per leggere un file di testo dobbiamo creare un oggetto di tipo FileInputStream collegato al file specificato, prevede due costruttori:
 <ol>
   <li>FileReader(String nome)</li>
   <li>FileReader(File f)</li>
@@ -32,7 +32,7 @@ E' possibile creare un'oggetto: BufferedReader bf = new BufferedReader(new FileR
 <hr>
 <h1>SCRITTURA FILE DI TESTO</h1>
 <h3>FileWriter</h3>
-Per scrivere un file di testo dobbiamo creare un'oggetto di tipo FileWriter collegato al file specificato, prevede diversi costruttori suddivisi in due modalità:
+Per scrivere un file di testo dobbiamo creare un oggetto di tipo FileWriter collegato al file specificato, prevede diversi costruttori suddivisi in due modalità:
 <ol>
   <li>Riscrittura del contenuto nel file specificato, perdo il contenuto esistente:
     <ol>
@@ -63,7 +63,7 @@ Serve per scrivere un blocco di testo agganciandosi ad uno stream, costruttore:
   <li>BufferedWriter(String nome)</li>
   <li>BufferedWriter(FileReader fr)</li>
 </ol>
-E' possibile creare un'oggetto: BufferedReader bf = new BufferedReader(new FileReader(nome o File f);
+E' possibile creare un oggetto: BufferedReader bf = new BufferedReader(new FileReader(nome o File f);
 <h4>Metodi principali</h4>
 <ol>
   <li>write(String testo): scrive il testo nel file</li>
